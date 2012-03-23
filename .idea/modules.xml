@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/codeforces/codeforces.iml" filepath="$PROJECT_DIR$/codeforces/codeforces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/libs.iml" filepath="$PROJECT_DIR$/libs/libs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tmp/tmp.iml" filepath="$PROJECT_DIR$/tmp/tmp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/topcoder/topcoder.iml" filepath="$PROJECT_DIR$/topcoder/topcoder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/usaco/usaco.iml" filepath="$PROJECT_DIR$/usaco/usaco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uva/uva.iml" filepath="$PROJECT_DIR$/uva/uva.iml" />
+    </modules>
+  </component>
+</project>
+
