@@ -66,77 +66,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="P10070.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uva/src/P10070.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="53" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="P10198.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uva/src/P10198.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="85" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="P146.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uva/src/P146.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="0" selection-start="3369" selection-end="3369" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="P12405.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uva/src/P12405.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="14" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="P10300.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uva/src/P10300.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="P10323.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uva/src/P10323.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="39" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="P442.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/uva/src/P442.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="19" selection-start="533" selection-end="533" vertical-scroll-proportion="0.23880596">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#349#367#0" expanded="true" />
-                <element signature="e#660#667#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Test.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tmp/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="3" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
+            <state line="17" column="3" selection-start="291" selection-end="291" vertical-scroll-proportion="0.35820895">
               <folding />
             </state>
           </provider>
@@ -225,6 +158,26 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arena" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -239,30 +192,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="uva" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uva" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="tmp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -281,15 +210,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="arena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -298,7 +226,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
@@ -800,24 +728,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/uva/src/P575.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="31" selection-start="367" selection-end="367" vertical-scroll-proportion="0.4477612" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uva/src/P112_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="4" selection-start="1576" selection-end="1576" vertical-scroll-proportion="0.5522388" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uva/src/P113.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="21" selection-start="813" selection-end="813" vertical-scroll-proportion="0.6492537" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/src/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="40" selection-start="240" selection-end="240" vertical-scroll-proportion="0.31343284" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uva/src/P414.java">
@@ -845,34 +758,18 @@
         <state line="37" column="53" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uva/src/P10198.java">
+    <entry file="file://$PROJECT_DIR$/sgu/sgu.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="85" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uva/src/P146.java">
+    <entry file="file://$PROJECT_DIR$/sgu/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="0" selection-start="3369" selection-end="3369" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uva/src/P12405.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="14" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uva/src/P10300.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uva/src/P10323.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="39" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="3" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uva/src/P442.java">
@@ -883,6 +780,55 @@
             <element signature="e#349#367#0" expanded="true" />
             <element signature="e#660#667#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uva/src/P10323.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="39" selection-start="606" selection-end="606" vertical-scroll-proportion="0.57462686">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uva/src/P10300.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="95" selection-end="95" vertical-scroll-proportion="0.17910448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uva/src/P12405.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="14" selection-start="599" selection-end="599" vertical-scroll-proportion="0.6044776">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uva/src/P146.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="140" column="0" selection-start="3369" selection-end="3369" vertical-scroll-proportion="0.86567163">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uva/src/P10198.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="85" selection-start="562" selection-end="562" vertical-scroll-proportion="0.47014925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/src/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="40" selection-start="240" selection-end="240" vertical-scroll-proportion="0.31343284">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="3" selection-start="291" selection-end="291" vertical-scroll-proportion="0.35820895">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -949,7 +895,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>codeforces</last-edited>
+          <last-edited>sgu</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
