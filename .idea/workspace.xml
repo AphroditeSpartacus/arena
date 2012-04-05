@@ -11,6 +11,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/arena$MergersDivTwo.ic" NAME="MergersDivTwo Coverage Results" MODIFIED="1331971957980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
@@ -61,82 +66,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="P10106.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uva/src/P10106.java">
+      <file leaf-file-name="P10070.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uva/src/P10070.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="5" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+            <state line="37" column="53" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="P113.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uva/src/P113.java">
+      <file leaf-file-name="P10198.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uva/src/P10198.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="21" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
+            <state line="22" column="85" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="P113_2.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uva/src/P113_2.java">
+      <file leaf-file-name="P146.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uva/src/P146.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="56" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
+            <state line="140" column="0" selection-start="3369" selection-end="3369" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="P10161.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uva/src/P10161.java">
+      <file leaf-file-name="P12405.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uva/src/P12405.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="22" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0">
+            <state line="27" column="14" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="P575.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uva/src/P575.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="31" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="P10110.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uva/src/P10110.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="26" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="P112.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uva/src/P112.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="1" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="P112_2.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/uva/src/P112_2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="4" selection-start="1576" selection-end="1576" vertical-scroll-proportion="0.5418381">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="P458.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uva/src/P458.java">
+      <file leaf-file-name="P10300.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uva/src/P10300.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="8" column="13" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
               <folding />
@@ -144,10 +111,32 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="P10323.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uva/src/P10323.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="39" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="P442.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/uva/src/P442.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="19" selection-start="533" selection-end="533" vertical-scroll-proportion="0.23880596">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#349#367#0" expanded="true" />
+                <element signature="e#660#667#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Test.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tmp/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="23" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
+            <state line="17" column="3" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,32 +150,34 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
-    <option name="UPDATE_CHANGES_POLICY" value="STASH" />
     <option name="LINE_SEPARATORS_CONVERSION" value="ASK" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/uva/src/P113_2.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tmp/src/Test.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/codeforces/src/P166B_2.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/topcoder/src/DengklekTryingToSleep.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/uva/src/P112.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/uva/src/P424.java" />
-        <option value="$PROJECT_DIR$/uva/src/P748.java" />
-        <option value="$PROJECT_DIR$/uva/src/P340.java" />
-        <option value="$PROJECT_DIR$/uva/src/P10106.java" />
+        <option value="$PROJECT_DIR$/codeforces/src/P166B_2.java" />
         <option value="$PROJECT_DIR$/tmp/src/CT.cpp" />
-        <option value="$PROJECT_DIR$/uva/src/P10420.java" />
-        <option value="$PROJECT_DIR$/uva/src/P299.java" />
-        <option value="$PROJECT_DIR$/uva/src/P120.java" />
-        <option value="$PROJECT_DIR$/uva/src/P113.java" />
-        <option value="$PROJECT_DIR$/uva/src/P113_2.java" />
-        <option value="$PROJECT_DIR$/uva/src/P10161.java" />
-        <option value="$PROJECT_DIR$/uva/src/P575.java" />
-        <option value="$PROJECT_DIR$/uva/src/P10110.java" />
+        <option value="$PROJECT_DIR$/uva/src/P414.java" />
+        <option value="$PROJECT_DIR$/tmp/src/Test2.java" />
+        <option value="$USER_HOME$/test/MergersDivTwo.java" />
+        <option value="$PROJECT_DIR$/uva/src/P10070.java" />
+        <option value="$PROJECT_DIR$/uva/src/P10327.java" />
+        <option value="$PROJECT_DIR$/uva/src/P10198.java" />
+        <option value="$PROJECT_DIR$/libs/src/Permutation.java" />
+        <option value="$PROJECT_DIR$/uva/src/P146.java" />
+        <option value="$PROJECT_DIR$/uva/src/P12405.java" />
         <option value="$PROJECT_DIR$/tmp/src/Test.java" />
-        <option value="$PROJECT_DIR$/uva/src/P112.java" />
-        <option value="$PROJECT_DIR$/uva/src/P112_2.java" />
+        <option value="$USER_HOME$/test/fm/freemind/freemind/freemind/main/FreeMindMain.java" />
+        <option value="$PROJECT_DIR$/uva/src/P492.java" />
+        <option value="$PROJECT_DIR$/uva/src/P10323.java" />
+        <option value="$PROJECT_DIR$/uva/src/P442.java" />
       </list>
     </option>
   </component>
@@ -202,20 +193,11 @@
           <State>
             <id />
           </State>
-          <State>
-            <id>Code style issuesJavaScript</id>
-          </State>
-          <State>
-            <id>Control flow issues</id>
-          </State>
-          <State>
-            <id>JavaScript</id>
-          </State>
         </expanded-state>
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -243,8 +225,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -283,16 +263,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="topcoder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arena" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="tmp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -313,6 +283,17 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arena" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,19 +302,19 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="project.propDebugger" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/client_provide" />
+    <property name="last_opened_file_path" value="$USER_HOME$/test/fm/freemind/freemind/freemind/main" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.26435408" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.4222488" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -343,27 +324,10 @@
       <recent name="$PROJECT_DIR$/tmp/src/X" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P112_2">
-    <configuration default="false" name="P575" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.P442">
+    <configuration default="false" name="P12405" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="P575" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="uva" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="P10110" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="P10110" />
+      <option name="MAIN_CLASS_NAME" value="P12405" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -395,9 +359,9 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="P112" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="P492" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="P112" />
+      <option name="MAIN_CLASS_NAME" value="P492" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -412,9 +376,26 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="P112_2" type="Application" factoryName="Application" temporary="true">
+    <configuration default="false" name="P10323" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="P112_2" />
+      <option name="MAIN_CLASS_NAME" value="P10323" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="uva" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="P442" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="P442" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -459,7 +440,35 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="OSDefault" main_class_name="" method_name="" module_name="" output_log_level="" package_name="" player_path="/Applications/Flash Player Debugger.app" port="0" run_mode="HtmlOrSwfFile" run_trusted="true" scope="Class" socket_policy_port="0" url_to_launch="http://">
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" class_name="" method_name="" output_log_level="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -500,24 +509,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -535,6 +526,17 @@
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -564,17 +566,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -596,11 +587,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.P575" />
-      <item index="1" class="java.lang.String" itemvalue="Application.P10110" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="3" class="java.lang.String" itemvalue="Application.P112" />
-      <item index="4" class="java.lang.String" itemvalue="Application.P112_2" />
+      <item index="0" class="java.lang.String" itemvalue="Application.P12405" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="2" class="java.lang.String" itemvalue="Application.P492" />
+      <item index="3" class="java.lang.String" itemvalue="Application.P10323" />
+      <item index="4" class="java.lang.String" itemvalue="Application.P442" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -608,7 +599,7 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500">
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
     <option name="mySSHConnectionTimeout" value="30000" />
@@ -636,10 +627,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -648,17 +640,17 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277635" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16736111" sideWeight="0.6722365" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.29913917" sideWeight="0.6701987" order="7" side_tool="false" content_ui="tabs" x="788" y="78" width="623" height="755" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16736111" sideWeight="0.67268354" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.44236112" sideWeight="0.6701987" order="7" side_tool="false" content_ui="tabs" x="816" y="22" width="623" height="874" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.38522238" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" x="100" y="122" width="1240" height="674" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273165" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -696,7 +688,10 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -805,98 +800,88 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/uva/src/P748.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="1" selection-start="799" selection-end="799" vertical-scroll-proportion="0.7190413" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uva/src/P340.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="71" selection-start="1239" selection-end="1239" vertical-scroll-proportion="0.7603196" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uva/src/P10420.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="47" selection-start="717" selection-end="717" vertical-scroll-proportion="0.6711052" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uva/src/P299.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="23" selection-start="197" selection-end="197" vertical-scroll-proportion="0.25699067" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uva/src/P120.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="29" selection-start="330" selection-end="330" vertical-scroll-proportion="0.023968043" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/src/CT.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="205" selection-end="205" vertical-scroll-proportion="0.35952064" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uva/src/P10106.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="5" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uva/src/P113.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="21" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uva/src/P113_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="56" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uva/src/P10161.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="22" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uva/src/P575.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="31" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uva/src/P10110.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="26" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="23" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uva/src/P458.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uva/src/P112.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="1" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="20" column="31" selection-start="367" selection-end="367" vertical-scroll-proportion="0.4477612" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uva/src/P112_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="4" selection-start="1576" selection-end="1576" vertical-scroll-proportion="0.5418381">
+        <state line="70" column="4" selection-start="1576" selection-end="1576" vertical-scroll-proportion="0.5522388" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uva/src/P113.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="21" selection-start="813" selection-end="813" vertical-scroll-proportion="0.6492537" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/src/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="40" selection-start="240" selection-end="240" vertical-scroll-proportion="0.31343284" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uva/src/P414.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="23" selection-start="198" selection-end="198" vertical-scroll-proportion="0.21641791" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uva/src/P10327.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="63" selection-start="637" selection-end="637" vertical-scroll-proportion="0.6492537" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/src/Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="0" selection-start="1709" selection-end="1709" vertical-scroll-proportion="0.95522386" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uva/src/P492.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="145" selection-end="145" vertical-scroll-proportion="0.2238806" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uva/src/P10070.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="53" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uva/src/P10198.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="85" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uva/src/P146.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="140" column="0" selection-start="3369" selection-end="3369" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uva/src/P12405.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="14" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uva/src/P10300.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uva/src/P10323.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="39" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="3" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uva/src/P442.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="19" selection-start="533" selection-end="533" vertical-scroll-proportion="0.23880596">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#349#367#0" expanded="true" />
+            <element signature="e#660#667#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -907,6 +892,17 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

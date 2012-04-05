@@ -1,3 +1,37 @@
+import java.util.*;
+
+/**
+ * User: Aphrodite
+ * Date: 12-3-31
+ * Time: PM8:26
+ */
+
+public class P146 {
+  public static void main(String[] args) {
+    new P146().solve();
+  }
+
+  public void solve() {
+    Scanner in = new Scanner(System.in);
+    while (true) {
+      String s = in.next();
+      if (s.equals("#")) {
+        break;
+      }
+      char[] a = s.toCharArray();
+      boolean res = Permutation.next(a);
+      if (res) {
+        for (char c : a) {
+          System.out.print(c);
+        }
+        System.out.println();
+      } else {
+        System.out.println("No Successor");
+      }
+    }
+  }
+}
+
 class Permutation {
   public static <T extends Comparable<? super T>> boolean next(T[] a) {
     for (int idx1 = a.length - 2; idx1 >= 0; --idx1) {

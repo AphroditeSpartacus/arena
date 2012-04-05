@@ -17,5 +17,8 @@
     </wildcardResourcePatterns>
     <annotationProcessing enabled="false" useClasspath="true" />
   </component>
+  <component name="JavacSettings">
+    <option name="DEBUGGING_INFO" value="false" />
+  </component>
 </project>
 

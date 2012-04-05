@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/codeforces/codeforces.iml" filepath="$PROJECT_DIR$/codeforces/codeforces.iml" />
       <module fileurl="file://$PROJECT_DIR$/libs/libs.iml" filepath="$PROJECT_DIR$/libs/libs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sgu/sgu.iml" filepath="$PROJECT_DIR$/sgu/sgu.iml" />
       <module fileurl="file://$PROJECT_DIR$/tmp/tmp.iml" filepath="$PROJECT_DIR$/tmp/tmp.iml" />
       <module fileurl="file://$PROJECT_DIR$/topcoder/topcoder.iml" filepath="$PROJECT_DIR$/topcoder/topcoder.iml" />
       <module fileurl="file://$PROJECT_DIR$/usaco/usaco.iml" filepath="$PROJECT_DIR$/usaco/usaco.iml" />

@@ -39,6 +39,7 @@ public class P414 {
         sum += integer;
       }
       System.out.println(sum - min * n);
+
     }
   }
 }
