@@ -1,4 +1,49 @@
-import java.util.BitSet;
+import java.util.*;
+
+/**
+ * User: Aphrodite
+ * Date: 12-4-14
+ * Time: PM11:47
+ */
+
+public class P113 {
+  public static void main(String[] args) {
+    new P113().solve();
+  }
+
+  public void solve() {
+    Scanner in = new Scanner(System.in);
+    Prime prime = new Prime(100000);
+    int[] a = prime.getPrimeArray();
+    int test = in.nextInt();
+    out:
+    for (int t = 0; t < test; t++) {
+      int n = in.nextInt();
+      for (int i = 0; i < a.length; i++) {
+        if (n % a[i] == 0) {
+          int x = n / a[i];
+          if (isPrime(x)) {
+            System.out.println("Yes");
+            continue out;
+          }
+        }
+      }
+      System.out.println("No");
+    }
+  }
+
+  boolean isPrime(int n) {
+    if (n < 2) {
+      return false;
+    }
+    for (int i = 2; i * i <= n; i++) {
+      if (n % i == 0) {
+        return false;
+      }
+    }
+    return true;
+  }
+}
 
 class Prime {
   public Prime(int n) {
