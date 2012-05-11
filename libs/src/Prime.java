@@ -4,12 +4,14 @@ class Prime {
   public Prime(int n) {
     max = n;
     bitSet = new BitSet(max + 1);
-    bitSet.set(0, 2, false);
-    bitSet.set(2, max, true);
-    for (long i = 2; i * i <= max; ++i) {
-      if (isPrime((int) i)) {
-        for (long j = i * i; j <= max; j += i) {
-          bitSet.set((int) j, false);
+    if (max > 1){
+      bitSet.set(0, 2, false);
+      bitSet.set(2, max + 1, true);
+      for (long i = 2; i * i <= max; ++i) {
+        if (isPrime((int) i)) {
+          for (long j = i * i; j <= max; j += i) {
+            bitSet.set((int) j, false);
+          }
         }
       }
     }

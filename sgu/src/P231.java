@@ -2,58 +2,43 @@ import java.util.*;
 
 /**
  * User: Aphrodite
- * Date: 12-4-14
- * Time: PM11:47
+ * Date: 12-5-10
+ * Time: PM9:04
  */
 
-public class P113 {
+public class P231 {
   public static void main(String[] args) {
-    new P113().solve();
+    new P231().solve();
   }
 
   public void solve() {
     Scanner in = new Scanner(System.in);
-    Prime prime = new Prime(100000);
-    int[] a = prime.getPrimeArray();
-    int test = in.nextInt();
-    out:
-    for (int t = 0; t < test; t++) {
-      int n = in.nextInt();
-      for (int i = 0; i < a.length; i++) {
-        if (n % a[i] == 0) {
-          int x = n / a[i];
-          if (isPrime(x)) {
-            System.out.println("Yes");
-            continue out;
-          }
-        }
-      }
-      System.out.println("No");
-    }
-  }
-
-  boolean isPrime(int n) {
-    if (n < 2) {
-      return false;
-    }
-    for (int i = 2; i * i <= n; i++) {
-      if (n % i == 0) {
-        return false;
+    int n = in.nextInt();
+    Prime p = new Prime(n);
+    List<int[]> list = new ArrayList<int[]>();
+    for (int i = 3; i + 2 <= n; i += 2) {
+      if (p.isPrime(i) && p.isPrime(i + 2)) {
+        list.add(new int[]{2, i});
       }
     }
-    return true;
+    System.out.println(list.size());
+    for (int[] ints : list) {
+      System.out.println(ints[0] + " " + ints[1]);
+    }
   }
 
   class Prime {
     public Prime(int n) {
       max = n;
       bitSet = new BitSet(max + 1);
-      bitSet.set(0, 2, false);
-      bitSet.set(2, max, true);
-      for (long i = 2; i * i <= max; ++i) {
-        if (isPrime((int) i)) {
-          for (long j = i * i; j <= max; j += i) {
-            bitSet.set((int) j, false);
+      if (max > 1){
+        bitSet.set(0, 2, false);
+        bitSet.set(2, max + 1, true);
+        for (long i = 2; i * i <= max; ++i) {
+          if (isPrime((int) i)) {
+            for (long j = i * i; j <= max; j += i) {
+              bitSet.set((int) j, false);
+            }
           }
         }
       }

@@ -6,7 +6,8 @@ import java.util.*;
  * Time: PM9:45
  */
 
-public class StoreCredit {
+public class
+    StoreCredit {
   public static void main(String[] args) {
     new StoreCredit().solve();
   }
