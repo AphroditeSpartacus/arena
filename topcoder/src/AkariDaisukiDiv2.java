@@ -35,7 +35,7 @@ public class AkariDaisukiDiv2 {
         }
       }
     }
-    return set.size();
+    return set.size();k
   }
 
 
