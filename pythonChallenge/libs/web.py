@@ -4,7 +4,7 @@ import urllib
 __author__ = 'Aphrodite'
 
 def get_page_source(url):
-    source = urllib.urlopen(url).read().decode()
+    source = urllib.urlopen(url).read()
     return source
 
 
@@ -18,11 +18,11 @@ def get_message(comment, index):
 
 
 if __name__ == '__main__':
-#    url = 'http://www.linux-ren.org'
-    url = 'http://www.pythonchallenge.com/pc/def/ocr.html'
+    url = 'http://www.linux-ren.org'
+    # url = 'http://www.pythonchallenger.com/pc/def/ocr.html'
     src = get_page_source(url)
     print(src)
-    print('===========b=====================')
+    print('================================')
     comment = get_page_comment(url)
     print(len(comment))
     msg = get_message(comment, 1)
