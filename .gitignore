@@ -3,5 +3,7 @@
 *.iml
 *.pyc
 *.pyo
+*.sublime-project
+*.sublime-workspace
 tmp
 .ropeproject
