@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import bisect
 import collections
 import functools
@@ -8,14 +6,15 @@ import itertools
 import math
 import operator
 import re
-import random
 import sys
 from pprint import pprint
 
 
 def main():
-    data = map(str.rstrip, sys.stdin.readlines())
-    iterator = iter(data)
+    test_case = int(raw_input())
+    for test in xrange(test_case):
+        a, b = map(int, raw_input().split())
+        print a * b
 
 
 if __name__ == '__main__':

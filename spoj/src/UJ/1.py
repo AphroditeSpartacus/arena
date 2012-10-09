@@ -1,21 +1,18 @@
-# -*- coding: utf-8 -*-
-
-import bisect
 import collections
 import functools
-import heapq
 import itertools
 import math
 import operator
 import re
-import random
 import sys
 from pprint import pprint
 
-
 def main():
-    data = map(str.rstrip, sys.stdin.readlines())
-    iterator = iter(data)
+    while True:
+        m, n = map(int, raw_input().split())
+        if m == 0:
+            break
+        print m ** n
 
 
 if __name__ == '__main__':
