@@ -1,6 +1,6 @@
 def base_convert(s, from_base, to_base=10):
     import string
-    bases = string.digits + string.uppercase
+    bases = string.digits + string.ascii_uppercase
     n = int(s, from_base)
     res = []
     while n > 0:
@@ -18,5 +18,5 @@ def dec2bin(number):
 
 
 if __name__ == '__main__':
-    print bin2dec('11')
-    print dec2bin(10)
+    print(bin2dec('11'))
+    print(dec2bin(10))

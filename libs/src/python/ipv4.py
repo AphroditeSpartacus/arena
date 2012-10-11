@@ -20,13 +20,13 @@ def ipv4_cidr_to_netmask(cidr):
     MAX_CIDR = 32
     if type(cidr) is not int or cidr > MAX_CIDR:
         return None
-    bit_str = ''.join(['1' if x < cidr else '0' for x in xrange(MAX_CIDR + 1)])
+    bit_str = ''.join(['1' if x < cidr else '0' for x in range(MAX_CIDR + 1)])
     bit_range = range(0, MAX_CIDR + 1, 8)
-    return '.'.join(map(lambda x: str(int(x, 2)), [bit_str[bit_range[i - 1]:bit_range[i]] for i in xrange(1, len(bit_range))]))
+    return '.'.join(map(lambda x: str(int(x, 2)), [bit_str[bit_range[i - 1]:bit_range[i]] for i in range(1, len(bit_range))]))
 
 
 if __name__ == '__main__':
-    for x in xrange(36):
-        print x, ipv4_cidr_to_netmask(x), ipv4_netmask_to_cidr(ipv4_cidr_to_netmask(x))
+    for x in range(36):
+        print(x, ipv4_cidr_to_netmask(x), ipv4_netmask_to_cidr(ipv4_cidr_to_netmask(x)))
 
-    print is_valid_ipv4('0.0.0.0')
+    print(is_valid_ipv4('0.0.0.0'))

@@ -51,9 +51,13 @@ def main():
     for test in xrange(test_case):
         next(iterator)
         n = int(next(iterator))
-        seq = [int(next(iterator)) for i in xrange(n)]
+        # seq = [next(iterator) for i in xrange(n)]
+        seq = data[2:]
+        # for x in xrange(n):
+        #     data[x + 2] = int(next(iterator))
+        print n
         # print seq
-        quick_sort(seq)
+        # quick_sort(seq)
         global count
         print count
         count = 0

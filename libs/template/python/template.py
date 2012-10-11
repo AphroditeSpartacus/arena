@@ -14,8 +14,7 @@ from pprint import pprint
 
 
 def main():
-    data = map(str.rstrip, sys.stdin.readlines())
-    iterator = iter(data)
+    iterator = itertools.imap(str.rstrip, sys.stdin.readlines())
 
 
 if __name__ == '__main__':

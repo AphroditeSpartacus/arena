@@ -1,8 +1,8 @@
 def merge_sort(seq):
     mid = len(seq) / 2 # Midpoint for division
     lft, rgt = seq[:mid], seq[mid:]
-    if len(lft) > 1: lft = mergesort(lft) # Sort by halves
-    if len(rgt) > 1: rgt = mergesort(rgt)
+    if len(lft) > 1: lft = merge_sort(lft) # Sort by halves
+    if len(rgt) > 1: rgt = merge_sort(rgt)
     res = []
     while lft and rgt: # Neither half is empty
         if lft[-1] >= rgt[-1]: # lft has greatest last value
