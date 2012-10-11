@@ -7,7 +7,6 @@ import re
 import sys
 import os
 
-
 def main():
     n = int(input())
     s = input()
