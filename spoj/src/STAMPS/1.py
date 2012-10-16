@@ -25,6 +25,20 @@ __author__ = 'Aphrodite'
 
 def main():
     iterator = itertools.imap(str.rstrip, sys.stdin.readlines())
+    test_case = int(next(iterator))
+    for case in range(test_case):
+        n, m = map(int, next(iterator).split())
+        a = map(int, next(iterator).split())
+        a.sort(reverse=True)
+        print('Scenario #' + str(case + 1) + ':')
+        for i in range(m):
+            n -= a[i]
+            if n <= 0:
+                print(i + 1)
+                break
+        else:
+            print('impossible')
+        print()
 
 
 if __name__ == '__main__':
