@@ -27,6 +27,15 @@ __author__ = 'Aphrodite'
 
 def main():
     iterator = itertools.imap(str.rstrip, sys.stdin.readlines())
+    n = int(next(iterator))
+    top = int(next(iterator))
+    for i in range(n):
+        x, y = map(int, next(iterator).split())
+        a = [x, y, 7 - x, 7 - y]
+        if top in a:
+            print('NO')
+            return
+    print('YES')
 
 
 if __name__ == '__main__':

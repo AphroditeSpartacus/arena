@@ -27,6 +27,23 @@ __author__ = 'Aphrodite'
 
 def main():
     iterator = itertools.imap(str.rstrip, sys.stdin.readlines())
+    s, k = map(int, next(iterator).split())
+    a = [0, 1]
+    while a[-1] < s:
+        if (len(a)) < k:
+            a.append(sum(a))
+        else:
+            a.append(sum(a[-k:]))
+#    print(a)
+    res = []
+    while s > 0:
+        idx = bisect.bisect(a, s) - 1
+        s -= a[idx]
+        res.append(a[idx])
+    if len(res) == 1:
+        res.append(0)
+    print(len(res))
+    print(' '.join(map(str, res)))
 
 
 if __name__ == '__main__':
