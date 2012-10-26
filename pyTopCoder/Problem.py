@@ -87,6 +87,8 @@ __author__ = 'Aphrodite'
 def %s:
     pass
 
+if __name__ == '__main__':
+    pass
 """
 
 ## test icons ##
