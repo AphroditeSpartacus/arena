@@ -26,7 +26,12 @@ __author__ = 'Aphrodite'
 
 def main():
     iterator = itertools.imap(str.rstrip, sys.stdin.readlines())
-
+    d = {}
+    n = int(next(iterator))
+    for i in range(n):
+        a, b = map(int, next(iterator).split())
+        d[a, b] = d.get((a, b), 0) + 1
+    print(max(d.values()))
 
 if __name__ == '__main__':
     main()

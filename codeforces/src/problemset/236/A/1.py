@@ -15,7 +15,6 @@ import operator
 import os
 import re
 import random
-import subprocess
 import sys
 import unittest
 from pprint import pprint
@@ -26,6 +25,11 @@ __author__ = 'Aphrodite'
 
 def main():
     iterator = itertools.imap(str.rstrip, sys.stdin.readlines())
+    s = next(iterator)
+    c = set()
+    for x in s:
+        c.add(x)
+    print('CHAT WITH HER!' if len(c) % 2 == 0 else 'IGNORE HIM!')
 
 
 if __name__ == '__main__':
