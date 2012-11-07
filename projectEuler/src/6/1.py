@@ -24,9 +24,12 @@ from StringIO import StringIO
 
 __author__ = 'Aphrodite'
 
+def func(n):
+    print(sum(range(1, n + 1)) ** 2 - sum(map(lambda x: x ** 2, range(1, n + 1))))
 
 def main():
-    iterator = itertools.imap(str.rstrip, sys.stdin.readlines())
+    func(10)
+    func(100)
 
 
 if __name__ == '__main__':

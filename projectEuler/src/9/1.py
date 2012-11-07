@@ -26,7 +26,11 @@ __author__ = 'Aphrodite'
 
 
 def main():
-    iterator = itertools.imap(str.rstrip, sys.stdin.readlines())
+    for i in range(1, 1000):
+        for j in range(i, 1000):
+            k = i * i + j * j
+            if int(k ** 0.5) ** 2 == k and i + j + int(k ** 0.5) == 1000:
+                print(i * j * int(k ** 0.5))
 
 
 if __name__ == '__main__':

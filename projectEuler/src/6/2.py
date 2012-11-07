@@ -24,9 +24,19 @@ from StringIO import StringIO
 
 __author__ = 'Aphrodite'
 
+def sum_numbers(n):
+    '''1 + 2 + ... + n = n * (n + 1) / 2'''
+    return n * (n + 1) // 2
+
+def sum_squares(n):
+    '''1 ^ 2 + 2 ^ 2 + ... + n ^ 2 = n * (n + 1) * (2 * n + 1) / 6'''
+    return n * (n + 1) * (2 * n + 1) // 6
+
+def func(n):
+    return sum_numbers(n) ** 2 - sum_squares(n)
 
 def main():
-    iterator = itertools.imap(str.rstrip, sys.stdin.readlines())
+    print(func(10))
 
 
 if __name__ == '__main__':

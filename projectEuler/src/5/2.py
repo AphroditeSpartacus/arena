@@ -26,8 +26,8 @@ __author__ = 'Aphrodite'
 
 
 def main():
-    iterator = itertools.imap(str.rstrip, sys.stdin.readlines())
-
+#    print(int(reduce(lambda x, y: x * y / __import__('fractions').gcd(x, y), range(1, 21))))
+    print(int(reduce(lambda x, y: x * y / fractions.gcd(x, y), range(1, 21))))
 
 if __name__ == '__main__':
     main()

@@ -7,7 +7,6 @@ from future_builtins import *
 import bisect
 import collections
 import copy
-import fractions
 import functools
 import heapq
 import itertools
@@ -27,6 +26,15 @@ __author__ = 'Aphrodite'
 
 def main():
     iterator = itertools.imap(str.rstrip, sys.stdin.readlines())
+    y, k, n = map(int, next(iterator).split())
+    start = k - y % k
+    ok = False
+    while start + y <= n:
+        ok = True
+        print(start, end=' ')
+        start += k
+    if not ok:
+        print(-1)
 
 
 if __name__ == '__main__':
