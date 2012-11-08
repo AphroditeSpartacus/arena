@@ -28,12 +28,8 @@ __author__ = 'Aphrodite'
 
 
 def main():
-    cnt = 0
-    for year in range(1901, 2001):
-        for month in range(1, 13):
-#            print(calendar.monthcalendar(year, month))
-            cnt += sum(1 for weeks in calendar.monthcalendar(year, month) for w, day in enumerate(weeks) if w == 6 and day == 1)
-    print(cnt)
+    print(sum(1 for year in range(1901, 2001) for month in range(1, 13) for weeks in calendar.monthcalendar(year, month) for w, day in enumerate(weeks) if w == 6 and day == 1))
+
 
 if __name__ == '__main__':
     main()
