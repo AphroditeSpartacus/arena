@@ -1,5 +1,14 @@
 # -*- coding: utf-8 -*-
 
+############################################################################
+#                                                                          #
+#                To see the world in a grain of sand,                      #
+#                And a heaven in a wild flower;                            #
+#                Hold infinity in the palm of your hand,                   #
+#                And eternity in an hour.                                  #
+#                                                                          #
+############################################################################
+
 from __future__ import division
 from __future__ import print_function
 from future_builtins import *
