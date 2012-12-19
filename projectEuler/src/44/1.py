@@ -25,7 +25,6 @@ import operator
 import os
 import re
 import random
-import string
 import subprocess
 import sys
 import unittest
@@ -36,7 +35,20 @@ __author__ = 'Aphrodite'
 
 
 def main():
-    iterator = itertools.imap(str.rstrip, sys.stdin.readlines())
+    'n * (3 * n - 1) / 2'
+    class FoundException(Exception): pass
+    n = 10000
+    a = [x * (3 * x - 1) / 2 for x in range(1, n + 1)]
+    sa = set(a)
+    try:
+        for dist in range(1, n):
+            for i in range(n - dist):
+                j = i + dist
+#                print(i, j, len(a))
+                if a[i] + a[j] in sa and a[j] - a[i] in sa:
+                    raise FoundException
+    except FoundException:
+        print(dist)
 
 
 if __name__ == '__main__':

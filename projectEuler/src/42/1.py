@@ -25,7 +25,6 @@ import operator
 import os
 import re
 import random
-import string
 import subprocess
 import sys
 import unittest
@@ -37,7 +36,12 @@ __author__ = 'Aphrodite'
 
 def main():
     iterator = itertools.imap(str.rstrip, sys.stdin.readlines())
-
+    s = next(iterator)
+    a = [x.strip('"') for x in s.split(',')]
+#    print(a)
+    triangle_numbers = set(x * (x + 1) // 2 for x in range(1, 100))
+#    print(triangle_numbers)
+    print(sum(1 for x in a if sum(ord(k) - ord('A') + 1 for k in x) in triangle_numbers))
 
 if __name__ == '__main__':
     main()

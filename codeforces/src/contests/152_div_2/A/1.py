@@ -25,7 +25,6 @@ import operator
 import os
 import re
 import random
-import string
 import subprocess
 import sys
 import unittest
@@ -37,6 +36,13 @@ __author__ = 'Aphrodite'
 
 def main():
     iterator = itertools.imap(str.rstrip, sys.stdin.readlines())
+    n = int(next(iterator))
+    a, b = 0, 0
+    for _ in range(n):
+        x, y = map(int, next(iterator).split())
+        a += x
+        b += y
+    print(min(a, n - a) + min(b, n - b))
 
 
 if __name__ == '__main__':

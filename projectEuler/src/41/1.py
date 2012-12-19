@@ -25,7 +25,6 @@ import operator
 import os
 import re
 import random
-import string
 import subprocess
 import sys
 import unittest
@@ -35,8 +34,26 @@ from StringIO import StringIO
 __author__ = 'Aphrodite'
 
 
+def is_prime(n):
+    if n < 2:
+        return False
+    for x in range(2, int(n ** 0.5) + 1):
+        if n % x == 0:
+            return False
+    return True
+
 def main():
-    iterator = itertools.imap(str.rstrip, sys.stdin.readlines())
+    a = []
+    res = 0
+    # range(1, 10), range(1, 9), the sum divied by 3.
+    for i in range(1, 8):
+        a.append(i)
+        for x in itertools.permutations(a):
+            n = int(''.join(map(str, x)))
+            if n > res and is_prime(n):
+                res = n
+    print(res)
+
 
 
 if __name__ == '__main__':

@@ -25,7 +25,6 @@ import operator
 import os
 import re
 import random
-import string
 import subprocess
 import sys
 import unittest
@@ -37,6 +36,15 @@ __author__ = 'Aphrodite'
 
 def main():
     iterator = itertools.imap(str.rstrip, sys.stdin.readlines())
+    x, y, a, b = map(int, next(iterator).split())
+    res = []
+    for p in range(a, x + 1):
+        for q in range(b, y + 1):
+            if p > q:
+                res.append((p, q))
+    print(len(res))
+    for i in res:
+        print(i[0], i[1])
 
 
 if __name__ == '__main__':
