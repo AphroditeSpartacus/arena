@@ -50,7 +50,7 @@ $ENDCUT$
  ***************************************************************************/
 
 
-$RC$ $CLASSNAME$ :: $METHODNAME$($METHODPARMS$)
+$RC$ $CLASSNAME$::$METHODNAME$($METHODPARMS$)
 {
 
 }
