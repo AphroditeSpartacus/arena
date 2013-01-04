@@ -29,8 +29,9 @@ def get_page_source(url):
 
 def main(url):
     src = get_page_source(url)
-    input_pattern = r'<div class="input"><div class="title">Input</div><pre>(.*?)</pre></div>'
-    input_result = re.findall(input_pattern, src)
+    # input_pattern = r'<h2><font color=#0070E8><a name="section0001005000000000000000">Sample Input</A>.*?<pre>\n(.*?)\n</PRE>'
+    input_pattern = r'>Sample Input</A>.*?<pre>\n?(.*?)\n?</pre>'
+    input_result = re.findall(input_pattern, src, re.S | re.I)
     for idx, val in enumerate(input_result):
         input_result[idx] = val.replace('<br />', '\n')
         # dump_file = '/Users/Aphrodite/program/arena/tmp/input-{0}'.format(idx + 1)
@@ -41,6 +42,6 @@ def main(url):
             print(input_result[idx], file=f)
 
 if __name__ == '__main__':
-#    url = 'http://www.codeforces.com/problemset/problem/237/A'
+#    url = 'http://uva.onlinejudge.org/external/1/100.html'
     url = sys.argv[1]
     main(url)
