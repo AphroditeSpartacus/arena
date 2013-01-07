@@ -25,7 +25,7 @@
 using namespace std;
 
 #ifdef DEBUG
-#include "/Users/Aphrodite/program/arena/libs/src/cpp/print/print.cpp"
+#include "/Users/Aphrodite/program/arena/libs/src/cpp/debug.cpp"
 #endif
 
 /****************************************************************************
@@ -40,5 +40,25 @@ using namespace std;
 
 int main()
 {
-
+  long long a, b;
+  int cnt = 0;
+  while (cin >> a >> b) {
+    if (a < 0) {
+      break;
+    }
+    cout << "Case " << ++cnt << ": A = " << a << ", limit = " << b << ", number of terms = ";
+    int res = 1;
+    while (a > 1) {
+      if (a % 2 == 0) {
+        a /= 2;
+      } else {
+        a = a * 3 + 1;
+        if (a > b) {
+          break;
+        }
+      }
+      ++res;
+    }
+    cout << res << endl;
+  }
 }

@@ -25,7 +25,7 @@
 using namespace std;
 
 #ifdef DEBUG
-#include "/Users/Aphrodite/program/arena/libs/src/cpp/print/print.cpp"
+#include "/Users/Aphrodite/program/arena/libs/src/cpp/debug.cpp"
 #endif
 
 /****************************************************************************
@@ -40,5 +40,23 @@ using namespace std;
 
 int main()
 {
-
+  string s;
+  while (getline(cin, s)) {
+    s = s + '.';
+    bool ok = false;
+    int cnt = 0;
+    for (size_t i = 0; i < (s).size(); ++i) {
+      if (isalpha(s[i])) {
+        if (!ok) {
+          ok = true;
+        }
+      } else {
+        if (ok) {
+          ok = false;
+          ++cnt;
+        }
+      }
+    }
+    cout << cnt << endl;
+  }
 }

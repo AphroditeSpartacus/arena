@@ -30,7 +30,7 @@ def get_page_source(url):
 def main(url):
     src = get_page_source(url)
     # input_pattern = r'<h2><font color=#0070E8><a name="section0001005000000000000000">Sample Input</A>.*?<pre>\n(.*?)\n</PRE>'
-    input_pattern = r'>Sample Input</A>.*?<pre>\n?(.*?)\n?</pre>'
+    input_pattern = r'Sample Input</A>.*?<pre>\n?(.*?)\n?</pre>'
     input_result = re.findall(input_pattern, src, re.S | re.I)
     for idx, val in enumerate(input_result):
         input_result[idx] = val.replace('<br />', '\n')

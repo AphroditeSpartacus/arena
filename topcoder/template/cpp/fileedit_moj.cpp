@@ -26,12 +26,12 @@ using namespace std;
 class $CLASSNAME$
 {
 public:
-    $RC$ $METHODNAME$($METHODPARMS$);
+  $RC$ $METHODNAME$($METHODPARMS$);
 };
 $BEGINCUT$
 /////////////////////////////////////////////////////////////////////////////
 #ifdef DEBUG
-#include "/Users/Aphrodite/program/arena/libs/src/cpp/debug.cpp"
+#include "/Users/Aphrodite/program/arena/libs/src/cpp/print/print.cpp"
 #endif
 
 $TESTCODE$

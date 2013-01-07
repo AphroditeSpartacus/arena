@@ -25,7 +25,7 @@
 using namespace std;
 
 #ifdef DEBUG
-#include "/Users/Aphrodite/program/arena/libs/src/cpp/print/print.cpp"
+#include "/Users/Aphrodite/program/arena/libs/src/cpp/debug.cpp"
 #endif
 
 /****************************************************************************
@@ -40,5 +40,8 @@ using namespace std;
 
 int main()
 {
-
+  long long a, b;
+  while (cin >> a >> b) {
+    cout << 2 * a * b << endl;
+  }
 }
