@@ -34,7 +34,7 @@ def main(url):
     for idx, val in enumerate(input_result):
         input_result[idx] = val.replace('<br />', '\n')
         # dump_file = '/Users/Aphrodite/program/arena/tmp/input-{0}'.format(idx + 1)
-        dump_file = '/tmp/{0}.input'.format(idx + 1)
+        dump_file = '/tmp/input-{0}'.format(idx + 1)
         print(dump_file)
         print(input_result[idx])
         with open(dump_file, mode='w') as f:
